@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>11</LangVersion>
+    <Version>1.0.0</Version>
+    <PackageId>Allege</PackageId>
+    <Authors>Renato Hartmann Grimes</Authors>
+    <Description>Provides runtime validation utilities to improve execution with concise exception details.</Description>
+    <RepositoryUrl>https://github.com/renatohgrimes/allege</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>© 2025 Renato Hartmann Grimes</Copyright>
+    <PackageTags>validation;runtime;checking;guarding;guard;guard rail</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath=""/>
+        <None Include="..\icon.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
